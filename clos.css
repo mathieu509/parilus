@@ -1,0 +1,192 @@
+body
+{
+
+
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+ul{margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 28px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+background-color: khaki;
+position: fixed;
+width: 10%;
+opacity: o,2;
+
+}
+header li
+{
+    float: right;
+    font-size: 2em;
+}
+#clos
+{
+    float: left;
+    font-family: "brush script MT",cursive;
+    font-weight: bold;
+}
+header li a 
+{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 18px 16px;
+}
+#imageprincipale
+{
+background-image: url(fok/image-principale.jpg);
+    background-size: 100%;
+    height: 599px;
+    padding: 50px;
+    
+    
+}
+h1
+{
+    font-family: "brush script MT",cursive;
+    color: darkkhaki;
+    text-align: center;
+    font-size: 6em;
+    text-shadow: black 2px;
+    margin-top: 200px;
+
+}
+#trait1
+{
+    height: 1px;
+    color: rgb(235, 235, 204);
+    box-shadow: 5px 5px 1px black;
+    margin: auto;
+    width: 25%;
+}
+h3{
+    color: rgb(235, 235, 192);
+    text-align: center;
+    font-size: 2em;
+    text-shadow: black 2px;
+
+}
+#section1
+{
+    background-color: rgb(207, 199, 80);
+    overflow: hidden;
+    padding: 10px 0 100px 0;
+}
+#textprincipale
+{
+padding: 0 20%;
+}
+#presentation
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    padding: 0%;
+}
+#presentation img
+{
+    border-radius: 20px;
+    box-shadow: 5px 5px 1px black;
+
+}
+#presentation img:hover
+{
+    opacity: 0.5;
+    transition: 0.6s ease-in-out;
+    transform: scale(1.05);
+}
+#presentation h4
+{
+    font-family: "brush script MT",cursive;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+}
+#section2
+{
+    background-color: blanchedalmond;
+    height: 1400px;
+    overflow: hidden;
+    padding: 1px 2%;
+}
+#section2 li
+{
+    margin: 65px 100px 0px 100px;
+    height: 220px;
+    width: 55%;
+    max-width: 550px;
+    float: left;
+    box-shadow: 6px 28px --1px black ;
+}
+#section2 p
+{
+    height: 43px;
+    width: 100%;
+    background-color: chartreuse;
+    float: right;
+    text-align: center;
+    margin: 50px --180px 0 0;
+    overflow: hidden;
+}
+#ocean
+{
+    background-image: url(fok/ocean.jpg);
+
+}
+#chateau
+{
+    margin-left: 20%;
+    background-image: url(fok/chateau.jpg);
+}
+#chatau p
+{
+    float: left;
+    margin-left: -10;
+}
+#section2 #chteau #vignoble
+{
+    float: right;
+}
+@media (max-width: 720px)
+{
+    #presentation
+    {
+        display: inline;
+        justify-content: space-between;
+        padding: 30px 10%;
+    }  
+    body
+    {
+        width: 100%;
+    }
+    
+
+}
+nav  a button
+{
+    color: darkred;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+    background-color: lawngreen;
+    size: 50px;
+    
+    
+}
+

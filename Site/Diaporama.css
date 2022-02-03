@@ -1,0 +1,67 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.Diaporama1
+{
+    margin: 0 auto;
+    width: 960px;
+    height: 500px;
+    border: 3px solid #333;
+    background-image: url("Drap.jpg") ;
+
+    -webkit-animation-name: diapo1 ;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+
+    
+    -moz-animation-name: diapo1 ;
+    -moz-animation-duration: 2s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+
+
+    animation-name: diapo1 ;
+    animation-duration: 90s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+}
+
+@-webkit-keyframes diapo1
+{
+    0%{background-image:url("vignes.jpg") ;}
+    11%{background-image:url("repas.jpg") ;}
+    22%{background-image:url("Drap.jpg") ;}
+    33%{background-image:url("M.png") ;}
+    66%{background-image:url("Mang.jpg") ;}
+    77%{background-image:url("Mupa.jpg") ;}
+    
+}
+
+@-moz-keyframes
+{
+    0%{background-image:url("vignes.jpg") ;}
+    11%{background-image:url("repas.jpg") ;}
+    22%{background-image:url("Drap.jpg") ;}
+    33%{background-image:url("M.png") ;}
+    66%{background-image:url("Mang.jpg") ;}
+    77%{background-image:url("Mupa.jpg") ;}
+}
+
+@keyframes
+{
+    0%{background-image:url("vignes.jpg") ;}
+    11%{background-image:url("repas.jpg") ;}
+    22%{background-image:url("Drap.jpg") ;}
+    33%{background-image:url("M.png") ;}
+    66%{background-image:url("Mang.jpg") ;}
+    77%{background-image:url("Mupa.jpg") ;}
+}

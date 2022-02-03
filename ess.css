@@ -1,0 +1,133 @@
+
+
+#culture
+{
+  text-align: center;
+  color:white;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: url("tours/culture2.jpg");
+  border-radius: 40px;
+  padding: 10px;
+  overflow: hidden;
+  
+  
+  
+}
+body {
+  font-family: "Advent Pro", sans-serif;
+  padding: 1%;
+  margin: 1%;
+  background-color: hsla(hue, saturation, lightness, alpha);
+  
+  
+}
+p
+{
+  padding: 1%;
+  text-justify: auto;
+  text-align: justify;
+  font-size: larger;
+}
+
+#image2 img
+{
+
+
+  border-radius: 100%;
+  display: flexbox;
+  box-shadow: deepskyblue 15px 10px 5px;
+ 
+}
+#image2 h4
+{
+  
+  border-radius: 50px;
+  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#makiyaj
+{
+  display: flex;
+}
+#carnaval1
+{
+  display: flex;
+}
+#carnaval2
+{
+  display: flex;
+}
+#plat
+{
+  display: flex;
+}
+@media (max-width: 320px)
+{
+  #makiyaj
+{
+  display: inline;
+}
+#carnaval1
+{
+  display: inline;
+}
+#carnaval2
+{
+  display: inline;
+}
+#plat
+{
+  display: inline;
+}
+#image2 h4
+{
+  
+  border-radius: 10px;
+  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+}
+@media (max-width: 843px) 
+{
+  #makiyaj
+  {
+    display: inline;
+  }
+  #carnaval1
+  {
+    display: inline;
+  }
+  #carnaval2
+  {
+    display: inline;
+  }
+  #plat
+  {
+    display: inline;
+  }
+  #image2 h4
+  {
+    
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+}
+nav  a button
+{
+    color: darkred;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+    background-color: lawngreen;
+    size: 50px;
+    
+    
+}
+
